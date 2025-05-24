@@ -1,0 +1,65 @@
+.theme-container {
+    width: 100vw;
+    height: 100vh; /* Ensures full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Centers everything */
+    transition: background-color 0.3s ease-in-out;
+    overflow: hidden; /* Prevents any scrolling */
+    position: fixed; /* Ensures no movement */
+    top: 0;
+    left: 0;
+  }
+  
+  /* Light Theme */
+  .light-theme {
+    background-color: white;
+    color: black;
+  }
+  
+  /* Dark Theme */
+  .dark-theme {
+    background-color: black;
+    color: white;
+  }
+  
+  /* Heading */
+  .theme-container h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+  }
+  
+  /* Toggle Button */
+  .theme-toggle-btn {
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: background 0.3s ease-in-out;
+    margin-top: 10px; /* Slight spacing */
+  }
+  
+  /* Button styles for themes */
+  .light-theme .theme-toggle-btn {
+    /* background-color: yellow; */
+    color: black;
+  }
+  
+  .dark-theme .theme-toggle-btn {
+    /* background-color: #555; */
+    color: white;
+  }
+  
+  /* Paragraph */
+  .theme-container p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+
+
+
+
+
